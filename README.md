@@ -20,7 +20,7 @@ Paste this where you want the widget to appear. It is free, needs no API key, an
 page that allows iframes:
 
 ```html
-<iframe src="https://qiblafind.net/embed/hijri-calendar" title="Hijri calendar" width="100%" height="1040" style="border:0;max-width:100%" loading="lazy"></iframe>
+<iframe src="https://qiblafind.net/embed/hijri-calendar" title="Hijri calendar" width="100%" height="960" style="border:0;max-width:100%" loading="lazy"></iframe>
 <p style="font-size:13px"><a href="https://qiblafind.net/hijri-calendar">Hijri calendar</a> by QiblaFind</p>
 ```
 
