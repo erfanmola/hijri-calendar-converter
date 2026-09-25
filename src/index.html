@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hijri Calendar and Date Converter: Today&#x27;s Islamic Date</title>
+  <meta name="description" content="Free Hijri (Islamic) calendar showing today&#x27;s Hijri date, this month&#x27;s key Islamic dates, and a Gregorian-to-Hijri date converter. Embed it on any website.">
+  <link rel="canonical" href="{{SITE_URL}}">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hijri Calendar and Date Converter: Today&#x27;s Islamic Date">
+  <meta property="og:description" content="Free Hijri (Islamic) calendar showing today&#x27;s Hijri date, this month&#x27;s key Islamic dates, and a Gregorian-to-Hijri date converter. Embed it on any website.">
+  <meta property="og:url" content="{{SITE_URL}}">
+  <meta property="og:image" content="{{SITE_URL}}og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Hijri Calendar and Date Converter", "url": "{{SITE_URL}}", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (web browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "description": "Free Hijri (Islamic) calendar showing today's Hijri date, this month's key Islamic dates, and a Gregorian-to-Hijri date converter. Embed it on any website.", "isBasedOn": "{{LINK_ORIGIN}}/hijri-calendar", "provider": {"@type": "Organization", "name": "QiblaFind", "url": "{{LINK_ORIGIN}}/"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is today's Hijri date?", "acceptedAnswer": {"@type": "Answer", "text": "The widget above shows today's date in the tabular Hijri calendar. Your local moon-sighting announcement may differ by a day."}}, {"@type": "Question", "name": "Why does my country's Islamic date sometimes differ by one day?", "acceptedAnswer": {"@type": "Answer", "text": "Many countries begin each month from a local moon sighting or an official calendar, while this widget uses a fixed arithmetic calendar. Both are legitimate; use your local announcement for religious dates."}}, {"@type": "Question", "name": "How many days are in a Hijri year?", "acceptedAnswer": {"@type": "Answer", "text": "A Hijri year has 354 or 355 days, about eleven days fewer than a Gregorian year."}}, {"@type": "Question", "name": "Can I convert a Gregorian date to Hijri?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Use the converter in the widget, or the full Hijri calendar on QiblaFind, which converts in both directions."}}]}</script>
+</head>
+<body>
+  <header class="site wrap">
+    <div class="kicker">Free web tool</div>
+    <h1>Hijri Calendar and Date Converter</h1>
+    <p class="lead">Find today's date in the Islamic (Hijri) calendar, see the current month with its notable dates, and convert any Gregorian date to Hijri.</p>
+  </header>
+
+  <main class="wrap">
+    <div class="tool" style="--frame-h-mobile:1200px;--frame-h-desktop:1040px">
+      <iframe src="{{EMBED_ORIGIN}}/embed/hijri-calendar" title="Hijri calendar"></iframe>
+      <a class="open-full" href="{{LINK_ORIGIN}}/hijri-calendar">Open the full Hijri calendar →</a>
+    </div>
+
+    <section>
+      <h2>About the Hijri calendar</h2>
+      <p>The Hijri calendar is a lunar calendar of twelve months, and its year is about eleven days shorter than the Gregorian year. That is why Islamic dates such as Ramadan and the two Eids move earlier each Gregorian year. Year 1 of the calendar begins with the Hijrah, the Prophet Muhammad's migration from Makkah to Madinah.</p>
+    </section>
+    <section>
+      <h2>How the dates are calculated</h2>
+      <p>This widget uses the standard tabular (arithmetic) Hijri calendar, a fixed 30-year cycle with leap years at set positions. Many countries instead start each month from a local moon sighting or an official calendar such as Umm al-Qura, so the date announced where you live can differ by a day. For religious observances, follow your local authority's announcement.</p>
+      <p>The full <a href="{{LINK_ORIGIN}}/hijri-calendar">Hijri calendar on QiblaFind</a> includes a two-way converter, and the <a href="{{LINK_ORIGIN}}/ramadan-{{RAMADAN_YEAR}}">Ramadan {{RAMADAN_YEAR}} timetable</a> shows expected fasting dates.</p>
+    </section>
+
+    <section>
+      <h2>Frequently asked questions</h2>
+      <h3>What is today&#x27;s Hijri date?</h3>
+      <p>The widget above shows today's date in the tabular Hijri calendar. Your local moon-sighting announcement may differ by a day.</p>
+      <h3>Why does my country&#x27;s Islamic date sometimes differ by one day?</h3>
+      <p>Many countries begin each month from a local moon sighting or an official calendar, while this widget uses a fixed arithmetic calendar. Both are legitimate; use your local announcement for religious dates.</p>
+      <h3>How many days are in a Hijri year?</h3>
+      <p>A Hijri year has 354 or 355 days, about eleven days fewer than a Gregorian year.</p>
+      <h3>Can I convert a Gregorian date to Hijri?</h3>
+      <p>Yes. Use the converter in the widget, or the full Hijri calendar on QiblaFind, which converts in both directions.</p>
+    </section>
+
+    <section>
+      <h2>Add this widget to your website</h2>
+      <p>Show today's Hijri date and the Islamic month on your website. Copy the code below into any page. It is free to use and needs no sign-up or API key.</p>
+      <div class="card">
+        <pre id="embed-code">&lt;iframe src=&quot;{{LINK_ORIGIN}}/embed/hijri-calendar&quot; title=&quot;Hijri calendar&quot; width=&quot;100%&quot; height=&quot;1040&quot; style=&quot;border:0;max-width:100%&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+&lt;p style=&quot;font-size:13px&quot;&gt;&lt;a href=&quot;{{LINK_ORIGIN}}/hijri-calendar&quot;&gt;Hijri calendar&lt;/a&gt; by QiblaFind&lt;/p&gt;</pre>
+        <button class="copy" type="button" data-copy="embed-code" data-done="Copied">Copy embed code</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <p>This page is an open-source showcase of the QiblaFind Hijri calendar widget. The widget is provided by <a href="{{LINK_ORIGIN}}/">QiblaFind</a>, a free Qibla finder and prayer times site.</p>
+      <nav aria-label="More QiblaFind tools">
+        <a href="{{LINK_ORIGIN}}/">Online Qibla Finder</a>
+        <a href="{{LINK_ORIGIN}}/prayer-times">Prayer times</a>
+        <a href="{{LINK_ORIGIN}}/hijri-calendar">Hijri calendar</a>
+        <a href="{{LINK_ORIGIN}}/ramadan-{{RAMADAN_YEAR}}">Ramadan {{RAMADAN_YEAR}}</a>
+        <a href="{{LINK_ORIGIN}}/mosque-finder">Mosque finder</a>
+        <a href="{{LINK_ORIGIN}}/qibla-direction">Qibla direction by city</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
